@@ -18,3 +18,5 @@ Now you can run and experiment with various cases by running:
 ```
 > python src/run_mpvision.py [case i.e. faces]
 ``` 
+
+Oh yes this project uses files from [lab-data](https://github.com/agov0001/lab-data) repo so check it out side by side.

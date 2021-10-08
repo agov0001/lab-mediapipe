@@ -16,7 +16,8 @@ log_critical=log.critical
 basedir = os.getenv('APP_BASEDIR') or os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 workdirs=(
     os.getenv('APP_WORKDIR',os.getcwd()+"/var").replace("\\","/").replace("/./","/").rstrip("/")+"/",
-    (os.getcwd()+"/../data").replace("\\","/").replace("/./","/").rstrip("/")+"/"
+    (os.getcwd()+"/../data").replace("\\","/").replace("/./","/").rstrip("/")+"/",
+    (os.getcwd()+"/../lab-data").replace("\\","/").replace("/./","/").rstrip("/")+"/"
 )
 confdir = os.getenv('APP_CONFDIR') or os.getcwd()+"/etc"
 basedir=basedir.replace("\\","/").replace("/./","/").rstrip("/")+"/"
