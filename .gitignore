@@ -1,0 +1,23 @@
+venv/
+.venv/
+venv_*/
+.venv_*/
+.vscode/
+.azure/
+__pycache__
+.pytest_cache
+bin/
+build/
+dist/
+*.egg-info/
+*.log
+.ipynb_checkpoints
+#notebook and ipython
+profile_default/
+ipython_config.py
+# visual studiio code
+!.vscode/settings.json 
+!.vscode/tasks.json 
+!.vscode/launch.json 
+!.vscode/extensions.json 
+.history
